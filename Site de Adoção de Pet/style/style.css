@@ -9,55 +9,78 @@ body {
 }
 
 
-
 header .container {
     display: flex;
-    background-color: #2d6d30;
-    height: 182px;
+    background-color: #309135;
+    height: 100px;
 }
 
 header .container nav {
     display: flex;
-    margin: 5%;
     justify-content: start;
-    align-items: start;
+    align-items: center;
     margin-left: 250px;
+
 }
 
 header .container img {
-    border: solid, white;
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 80px;
     margin: 8%;
+    padding-left: 20px;
 }
 
 header .container nav ul{
     display: flex;
     list-style: none;
-    font-size: 50px;
+    font-size: 32px;
+    font-weight: bolder;
     justify-content: space-between;
     width: 600px;
 }
 
 header .container nav ul li {
-    color: white;
     font-family: sans-serif;
+
 }
 
-main .container{
-    display: flex;
+header .container nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .container nav ul li a:active{
+    color: rgb(90, 206, 88);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 /*CARROSSEL*/
 
-.slider{
+main{
+    overflow-x: hidden;
+
+}
+
+main .container{
     margin: 0 auto;
     height: auto;
     padding: 0%;
     width: 100%;
-    overflow-x: hidden;
     display: flex;
-    padding-top: 5%;
+}
+
+.slider{
+    padding-top: 25px;
+    width: 400%;
+    display: flex;
+    overflow-x: hidden;
 }
 
 
@@ -66,23 +89,25 @@ main .container input{
 }
 
 .mainbanner{
+    margin-top: 75px;
     width: 25%;
-    height: 100%;
     position: relative;
+
 }
 
 .mainbanner img{
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
 
 .nav-manual, .nav-auto{
-    position: absolute;
-    width: 26.5%;
-    margin-top: 27%;
     display: flex;
-    justify-content: center;
+    position: absolute;
+    width: 25%;
+    margin-top: 32%;
+    display: flex;
     gap: 2%;
+    padding-left: 600px;
 }
 
 .nav-manual .botao-manual, .nav-auto div{
@@ -92,6 +117,131 @@ main .container input{
     margin-top: 150px
 }
 
+.nav-manual .botao-manual:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+#radio1:checked ~ .nav-auto .botao-auto1{
+    background-color: rgb(255, 0, 0);
+
+}
+
+#radio2:checked ~ .nav-auto .botao-auto2{
+    background-color: rgb(255, 0, 0);
+
+}
+
+#radio3:checked ~ .nav-auto .botao-auto3{
+    background-color: rgb(255, 0, 0);
+
+}
+
+#radio4:checked ~ .nav-auto .botao-auto4{
+    background-color: rgb(255, 0, 0);
+
+}
+
+
+
+#radio1:checked ~ .SlideOne{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .SlideTwo{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .SlideThree{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .SlideFour{
+    margin-left: -75%;
+}
+
+
+/*CARDS DE ADOÇÃO*/
+
+
+.adocao{
+    margin-top: 5%;
+    padding: 1% 2.5%;
+    background-color: #fc7c2d;
+    width: auto;
+}
+
+.adocao .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adocao .container h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.card1{
+    background-color: #2d6d30;
+    width: 275px;
+    padding: 2%;
+
+}
+
+.card1 img{
+    width: 100%;
+    height: 275px;
+    margin-bottom: 7px;
+}
+
+.card1 .textcard{
+    font-family: sans-serif;
+}
+
+.card1 .textcard h4{
+    text-align: center;
+    color: white;
+}
+
+.card1 .textcard p{
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(137, 245, 127);
+}
+
+.card1 .buttoncard{
+    display: flex;
+    justify-content: center;
+}
+
+.card1 button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.card1 button:hover{
+    color: white;
+    background-color: #032505;
+}
+
+.card1 button:active{
+    background-color: #000000;
+
+}
 
 
 
