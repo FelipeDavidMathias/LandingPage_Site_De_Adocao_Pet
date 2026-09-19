@@ -30,7 +30,7 @@ header .container img {
     padding-left: 20px;
 }
 
-header .container nav ul{
+header .container nav ul {
     display: flex;
     list-style: none;
     font-size: 32px;
@@ -44,16 +44,16 @@ header .container nav ul li {
 
 }
 
-header .container nav ul li a{
+header .container nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-header .container nav ul li a:active{
+header .container nav ul li a:active {
     color: rgb(90, 206, 88);
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -63,12 +63,12 @@ header .container nav ul li a:active{
 
 /*CARROSSEL*/
 
-main{
+main {
     overflow-x: hidden;
 
 }
 
-main .container{
+main .container {
     margin: 0 auto;
     height: auto;
     padding: 0%;
@@ -76,7 +76,7 @@ main .container{
     display: flex;
 }
 
-.slider{
+.slider {
     padding-top: 25px;
     width: 400%;
     display: flex;
@@ -84,23 +84,24 @@ main .container{
 }
 
 
-main .container input{
+main .container input {
     display: none;
 }
 
-.mainbanner{
+.mainbanner {
     margin-top: 75px;
     width: 25%;
     position: relative;
 
 }
 
-.mainbanner img{
+.mainbanner img {
     width: 100%;
     height: 500px;
 }
 
-.nav-manual, .nav-auto{
+.nav-manual,
+.nav-auto {
     display: flex;
     position: absolute;
     width: 25%;
@@ -110,53 +111,54 @@ main .container input{
     padding-left: 600px;
 }
 
-.nav-manual .botao-manual, .nav-auto div{
+.nav-manual .botao-manual,
+.nav-auto div {
     border: solid 2px;
     padding: 8px;
     border-radius: 50%;
     margin-top: 150px
 }
 
-.nav-manual .botao-manual:hover{
+.nav-manual .botao-manual:hover {
     background-color: rgb(255, 0, 0);
 }
 
 
-#radio1:checked ~ .nav-auto .botao-auto1{
+#radio1:checked~.nav-auto .botao-auto1 {
     background-color: rgb(255, 0, 0);
 
 }
 
-#radio2:checked ~ .nav-auto .botao-auto2{
+#radio2:checked~.nav-auto .botao-auto2 {
     background-color: rgb(255, 0, 0);
 
 }
 
-#radio3:checked ~ .nav-auto .botao-auto3{
+#radio3:checked~.nav-auto .botao-auto3 {
     background-color: rgb(255, 0, 0);
 
 }
 
-#radio4:checked ~ .nav-auto .botao-auto4{
+#radio4:checked~.nav-auto .botao-auto4 {
     background-color: rgb(255, 0, 0);
 
 }
 
 
 
-#radio1:checked ~ .SlideOne{
+#radio1:checked~.SlideOne {
     margin-left: 0%;
 }
 
-#radio2:checked ~ .SlideTwo{
+#radio2:checked~.SlideTwo {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .SlideThree{
+#radio3:checked~.SlideThree {
     margin-left: -50%;
 }
 
-#radio4:checked ~ .SlideFour{
+#radio4:checked~.SlideFour {
     margin-left: -75%;
 }
 
@@ -164,67 +166,67 @@ main .container input{
 /*CARDS DE ADOÇÃO*/
 
 
-.adocao{
+.adocao {
     margin-top: 5%;
     padding: 1% 2.5%;
     background-color: #fc7c2d;
     width: auto;
 }
 
-.adocao .container{
+.adocao .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.adocao .container h3{
+.adocao .container h3 {
     font-size: 35px;
     font-family: sans-serif;
     color: white;
 }
 
-.container2{
+.container2 {
     width: 100%;
     height: auto;
     display: flex;
     gap: 15px;
 }
 
-.card1{
+.card1 {
     background-color: #2d6d30;
     width: 275px;
     padding: 2%;
 
 }
 
-.card1 img{
+.card1 img {
     width: 100%;
     height: 275px;
     margin-bottom: 7px;
 }
 
-.card1 .textcard{
+.card1 .textcard {
     font-family: sans-serif;
 }
 
-.card1 .textcard h4{
+.card1 .textcard h4 {
     text-align: center;
     color: white;
 }
 
-.card1 .textcard p{
+.card1 .textcard p {
     padding-top: 15px;
     margin-bottom: 20px;
     text-align: center;
     color: rgb(137, 245, 127);
 }
 
-.card1 .buttoncard{
+.card1 .buttoncard {
     display: flex;
     justify-content: center;
 }
 
-.card1 button{
+.card1 button {
     padding: 12px 30px;
     border-radius: 50px;
     border: none;
@@ -233,12 +235,12 @@ main .container input{
 
 }
 
-.card1 button:hover{
+.card1 button:hover {
     color: white;
     background-color: #032505;
 }
 
-.card1 button:active{
+.card1 button:active {
     background-color: #000000;
 
 }
@@ -246,71 +248,77 @@ main .container input{
 
 /*CARDS DE LOJA*/
 
-.loja{
+.loja {
     margin-top: 5%;
-    padding: 1% 2.5%;
     width: auto;
 }
 
-.loja .container{
+.loja .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.loja .container h3{
+.loja .container h3 {
     font-size: 35px;
     font-family: sans-serif;
-    color: #0d030f;
+    color: #ffffff;
     margin-bottom: 20px;
-}
-
-.loja .itens{
-    display: flex;
-    gap: 15px;
-}
-
-.item1{
     background-color: #fc7c2d;
-    width: 270px;
+    width: 99%;
+    text-align: center;
+    padding: 7px;
+}
+
+.loja .itens {
+    display: flex;
+    gap: 17px;
+}
+
+.item1 {
+    background-color: #fc7c2d;
+    width: 250px;
     padding: 2%;
 
 }
 
-.item1 .imgitem{
+.item1 .imgitem {
     width: 100%;
     height: 275px;
 }
 
-.item1 .imgitem img{
+.item1 .imgitem img {
     width: 100%;
     height: 100%;
 }
 
-.item1 .textitem{
+.item1 .textitem {
     font-family: sans-serif;
 }
 
-.item1 .textitem h4{
+.item1 .textitem h4 {
     text-align: center;
-    color: rgb(35, 114, 32);
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    margin-top: 5%;
 }
 
-.item1 .textitem p{
+.item1 .textitem p {
     padding-top: 15px;
     margin-bottom: 20px;
     text-align: center;
-    color: #fabe98;
+    font-weight: 20px;
+    font-size: 30px;
+    color: #502212;
 
 }
 
-.item1 .buttonitem{
+.item1 .buttonitem {
     display: flex;
     justify-content: center;
 }
 
-.item1 button{
+.item1 button {
     padding: 12px 30px;
     border-radius: 50px;
     border: none;
@@ -319,12 +327,12 @@ main .container input{
 
 }
 
-.item1 button:hover{
+.item1 button:hover {
     color: rgb(0, 0, 0);
     background-color: #fcf82d;
 }
 
-.item1 button:active{
+.item1 button:active {
     color: #ffffff;
     background-color: #ff4800;
 
@@ -334,16 +342,16 @@ main .container input{
 /*Dicas*/
 
 
-.dicas{
+.dicas {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     background-color: #fc7c2d;
 
-    
+
 }
 
-.dicas .container{
+.dicas .container {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -351,7 +359,7 @@ main .container input{
 
 }
 
-.dicas h2{
+.dicas h2 {
     font-size: 35px;
     font-family: sans-serif;
     color: #ffffff;
@@ -359,10 +367,10 @@ main .container input{
     margin-top: 20px;
     align-items: center;
     display: flex;
-    margin-left: 25%;
+    margin-left: 27.5%;
 }
 
-.dicas h3{
+.dicas h3 {
     font-size: 20px;
     font-family: sans-serif;
     color: #ffffff;
@@ -370,19 +378,18 @@ main .container input{
     margin-top: 20px;
 }
 
-.dicas ul li{
+.dicas ul li {
     font-size: 16px;
     font-family: sans-serif;
     list-style: none;
     margin-bottom: 2%
-
 }
 
-.dicas ul li p{
+.dicas ul li p {
     color: #ffffff;
 }
 
-.imagensdicas{
+.imagensdicas {
     display: flex;
     gap: 15px;
     flex-direction: column;
@@ -393,7 +400,7 @@ main .container input{
 
 }
 
-.imagensdicas img{
+.imagensdicas img {
     width: 200px;
     height: 200px;
     margin-right: 5%;
@@ -402,47 +409,73 @@ main .container input{
 
 /*RODAPÉ DO SITE*/
 
-footer{
+footer {
     background-color: #309135;
-    height: 100px;
     margin-top: 5%;
     gap: 10px;
+    padding-bottom: 5px;
 }
 
 footer .container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0% 5%;
+    padding: 2%;
 }
 
-footer .container p{
-    font-family: sans-serif;
-    color: white;
-    font-size: 16px;
-}
 
-footer .container .logofooter{
+footer .container .logofooter {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    padding: 5px;
 }
 
-footer .container .logofooter img{
-    width: 100px;
-    height: 100px;
+footer .container .logofooter img {
+    width: 200px;
+    height: 200px;
 }
 
+foooter .container .listafooter {
+    display: flex;
+    align-items: end;
 
+}
 
+footer .listafooter {
+    display: flex;
+    justify-content: end;
+    margin-left: 30%;
+    gap: 17%;
+}
 
+footer .listafooter {
+    font-family: sans-serif;
+}
 
+footer h3 {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+}
 
+.listafooter li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
 
+.listafooter li {
+    margin-right: 5%;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 2%
+}
 
+.textfooter{
+    width: 100%;
+}
 
+.container2 .textfooter p{
+    text-align: center;
+    color:   rgb(17, 71, 6);
 
-
-
-
-
+}
