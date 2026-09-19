@@ -244,6 +244,203 @@ main .container input{
 }
 
 
+/*CARDS DE LOJA*/
+
+.loja{
+    margin-top: 5%;
+    padding: 1% 2.5%;
+    width: auto;
+}
+
+.loja .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loja .container h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #0d030f;
+    margin-bottom: 20px;
+}
+
+.loja .itens{
+    display: flex;
+    gap: 15px;
+}
+
+.item1{
+    background-color: #fc7c2d;
+    width: 270px;
+    padding: 2%;
+
+}
+
+.item1 .imgitem{
+    width: 100%;
+    height: 275px;
+}
+
+.item1 .imgitem img{
+    width: 100%;
+    height: 100%;
+}
+
+.item1 .textitem{
+    font-family: sans-serif;
+}
+
+.item1 .textitem h4{
+    text-align: center;
+    color: rgb(35, 114, 32);
+    font-size: 20px;
+}
+
+.item1 .textitem p{
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fabe98;
+
+}
+
+.item1 .buttonitem{
+    display: flex;
+    justify-content: center;
+}
+
+.item1 button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.item1 button:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fcf82d;
+}
+
+.item1 button:active{
+    color: #ffffff;
+    background-color: #ff4800;
+
+}
+
+
+/*Dicas*/
+
+
+.dicas{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fc7c2d;
+
+    
+}
+
+.dicas .container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 5%;
+
+}
+
+.dicas h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.dicas h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dicas ul li{
+    font-size: 16px;
+    font-family: sans-serif;
+    list-style: none;
+    margin-bottom: 2%
+
+}
+
+.dicas ul li p{
+    color: #ffffff;
+}
+
+.imagensdicas{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 5%;
+    margin-left: 66%;
+    margin-top: -27%;
+
+}
+
+.imagensdicas img{
+    width: 200px;
+    height: 200px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+/*RODAPÉ DO SITE*/
+
+footer{
+    background-color: #309135;
+    height: 100px;
+    margin-top: 5%;
+    gap: 10px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+footer .container p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+footer .container .logofooter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .container .logofooter img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
